@@ -1,0 +1,74 @@
+name: GitLeaks Scanner
+
+on:
+  workflow_dispatch:
+    inputs:
+      repository_url:
+        required: true
+        type: string
+        description: 'GitHub repository URL to scan'
+
+jobs:
+  scan-and-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+      
+    steps:
+      - name: Checkout Scanner Code
+        uses: actions/checkout@v4
+      
+      - name: Clone Target Repository
+        run: |
+          REPO_NAME=$(basename ${{ inputs.repository_url }} .git)
+          git clone ${{ inputs.repository_url }} target_repo
+          echo "REPO_NAME=$REPO_NAME" >> $GITHUB_ENV
+
+      - name: Install GitLeaks
+        run: |
+          curl -L https://github.com/zricethezav/gitleaks/releases/download/v8.18.1/gitleaks_8.18.1_linux_x64.tar.gz | tar xz
+          chmod +x gitleaks
+          sudo mv gitleaks /usr/local/bin/
+
+      - name: Run GitLeaks Scan
+        id: gitleaks
+        run: |
+          cd target_repo
+          if gitleaks detect -f json -r ../gitleaks-report.json; then
+            echo "FINDINGS=false" >> $GITHUB_ENV
+            echo "No secrets found in the repository."
+          else
+            echo "FINDINGS=true" >> $GITHUB_ENV
+            echo "Found potential secrets in the repository."
+          fi
+
+      - name: Set up Python
+        if: env.FINDINGS == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          
+      - name: Install Python Dependencies
+        if: env.FINDINGS == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl python-dateutil
+
+      - name: Convert Report to Excel
+        if: env.FINDINGS == 'true'
+        run: |
+          python gitleaks_scanner/scripts/report_converter.py
+
+      - name: Upload Excel Report
+        if: env.FINDINGS == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: gitleaks-report-${{ env.REPO_NAME }}
+          path: excel_outputs/*.xlsx
+          retention-days: 7
+          
+      - name: Clean Scan Report
+        if: env.FINDINGS == 'true'
+        run: |
+          rm gitleaks-report.json
