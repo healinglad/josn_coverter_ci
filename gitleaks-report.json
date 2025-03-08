@@ -1,0 +1,408 @@
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_1","fieldType":"select...
+Secret:      dummy_field_1
+RuleID:      generic-api-key
+Entropy:     3.821928
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_2","fieldType":"string...
+Secret:      dummy_field_2
+RuleID:      generic-api-key
+Entropy:     3.843856
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_3","fieldType":"select...
+Secret:      dummy_field_3
+RuleID:      generic-api-key
+Entropy:     3.932138
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_4","fieldType":"string...
+Secret:      dummy_field_4
+RuleID:      generic-api-key
+Entropy:     4.084962
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_5","fieldType":"string...
+Secret:      dummy_field_5
+RuleID:      generic-api-key
+Entropy:     3.750000
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_6","fieldType":"select...
+Secret:      dummy_field_6
+RuleID:      generic-api-key
+Entropy:     4.136286
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_7","fieldType":"string...
+Secret:      dummy_field_7
+RuleID:      generic-api-key
+Entropy:     4.184184
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_8","fieldType":"select...
+Secret:      dummy_field_8
+RuleID:      generic-api-key
+Entropy:     4.114718
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_9","fieldType":"string...
+Secret:      dummy_field_9
+RuleID:      generic-api-key
+Entropy:     4.215312
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_10","fieldType":"select...
+Secret:      dummy_field_10
+RuleID:      generic-api-key
+Entropy:     4.171861
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_11","fieldType":"string...
+Secret:      dummy_field_11
+RuleID:      generic-api-key
+Entropy:     4.246439
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_12","fieldType":"string...
+Secret:      dummy_field_12
+RuleID:      generic-api-key
+Entropy:     4.216261
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_13","fieldType":"string...
+Secret:      dummy_field_13
+RuleID:      generic-api-key
+Entropy:     3.956273
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_14","fieldType":"select...
+Secret:      dummy_field_14
+RuleID:      generic-api-key
+Entropy:     3.851310
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_15","fieldType":"string...
+Secret:      dummy_field_15
+RuleID:      generic-api-key
+Entropy:     4.003702
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_16","fieldType":"select...
+Secret:      dummy_field_16
+RuleID:      generic-api-key
+Entropy:     3.897300
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_17","fieldType":"string...
+Secret:      dummy_field_17
+RuleID:      generic-api-key
+Entropy:     4.093943
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_18","fieldType":"select...
+Secret:      dummy_field_18
+RuleID:      generic-api-key
+Entropy:     4.027518
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_19","fieldType":"string...
+Secret:      dummy_field_19
+RuleID:      generic-api-key
+Entropy:     4.152172
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_20","fieldType":"select...
+Secret:      dummy_field_20
+RuleID:      generic-api-key
+Entropy:     4.027518
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_21","fieldType":"string...
+Secret:      dummy_field_21
+RuleID:      generic-api-key
+Entropy:     4.206226
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_22","fieldType":"select...
+Secret:      dummy_field_22
+RuleID:      generic-api-key
+Entropy:     4.090018
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_23","fieldType":"string...
+Secret:      dummy_field_23
+RuleID:      generic-api-key
+Entropy:     4.206226
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_24","fieldType":"select...
+Secret:      dummy_field_24
+RuleID:      generic-api-key
+Entropy:     4.090018
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_25","fieldType":"string...
+Secret:      dummy_field_25
+RuleID:      generic-api-key
+Entropy:     4.260280
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_26","fieldType":"select...
+Secret:      dummy_field_26
+RuleID:      generic-api-key
+Entropy:     3.905639
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_27","fieldType":"string...
+Secret:      dummy_field_27
+RuleID:      generic-api-key
+Entropy:     4.100817
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_28","fieldType":"select...
+Secret:      dummy_field_28
+RuleID:      generic-api-key
+Entropy:     4.090018
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_29","fieldType":"string...
+Secret:      dummy_field_29
+RuleID:      generic-api-key
+Entropy:     4.260280
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_30","fieldType":"select...
+Secret:      dummy_field_30
+RuleID:      generic-api-key
+Entropy:     3.895639
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_31","fieldType":"string...
+Secret:      dummy_field_31
+RuleID:      generic-api-key
+Entropy:     4.043545
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_32","fieldType":"select...
+Secret:      dummy_field_32
+RuleID:      generic-api-key
+Entropy:     3.708966
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     ...:"not-specified"},{"fieldKey":"dummy_field_33","fieldType":"string...
+Secret:      dummy_field_33
+RuleID:      generic-api-key
+Entropy:     3.991216
+File:        dataset/dummy-path/fields.json
+Line:        1
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-11-16T12:37:24Z
+Fingerprint: dummy_commit_hash:dataset/dummy-path/fields.json:generic-api-key:1
+
+Finding:     client_secret = "dummy_client_secret"
+Secret:      dummy_client_secret
+RuleID:      generic-api-key
+Entropy:     4.476410
+File:        main.py
+Line:        21
+Commit:      dummy_commit_hash
+Author:      Dummy Author
+Email:       dummy.email@example.com
+Date:        2023-10-19T14:24:56Z
+Fingerprint: dummy_commit_hash:main.py:generic-api-key:21
+
