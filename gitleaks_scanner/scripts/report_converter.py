@@ -21,18 +21,22 @@ def convert_json_to_excel(json_file_path):
         with open(json_file_path, 'r') as f:
             data = json.load(f)
         
-        # Extract relevant fields
+        # Extract relevant fields based on current GitLeaks JSON format
         processed_data = []
         for finding in data:
+            # Get the file path from Source.File or fall back to File
+            file_path = finding.get('Source', {}).get('File', '') or finding.get('File', '')
+            
             processed_data.append({
-                'File': finding.get('file', ''),
-                'Line': finding.get('startLine', ''),
-                'Commit': finding.get('commit', ''),
-                'Secret': finding.get('secret', ''),
-                'RuleID': finding.get('ruleID', ''),
-                'Date': finding.get('date', ''),
-                'Author': finding.get('author', ''),
-                'Email': finding.get('email', '')
+                'File': file_path,
+                'Line': finding.get('StartLine', ''),
+                'Secret Type': finding.get('Description', ''),
+                'Rule ID': finding.get('RuleID', ''),
+                'Secret': finding.get('Secret', ''),
+                'Commit': finding.get('Commit', '')[:8] if finding.get('Commit') else '',  # First 8 chars of commit hash
+                'Author': finding.get('Author', ''),
+                'Email': finding.get('Email', ''),
+                'Date': finding.get('Date', '')
             })
         
         df = pd.DataFrame(processed_data)
@@ -52,6 +56,7 @@ def convert_json_to_excel(json_file_path):
                     df[col].astype(str).apply(len).max(),
                     len(col)
                 ) + 2
+                # Cap width at 50 characters for readability
                 worksheet.column_dimensions[chr(65 + idx)].width = min(max_length, 50)
             
             # Add basic formatting
