@@ -6,43 +6,6 @@ import os
 EXCEL_FOLDER = 'excel_outputs'
 os.makedirs(EXCEL_FOLDER, exist_ok=True)
 
-def parse_gitleaks_report(file_path):
-    """
-    Parse GitLeaks text-based report format into a structured format.
-    
-    Args:
-        file_path (str): Path to the GitLeaks report file
-        
-    Returns:
-        list: List of findings with extracted information
-    """
-    findings = []
-    current_finding = {}
-    
-    with open(file_path, 'r') as f:
-        lines = f.readlines()
-        
-    for line in lines:
-        line = line.strip()
-        if not line:
-            if current_finding:
-                findings.append(current_finding)
-                current_finding = {}
-            continue
-            
-        if ':' in line:
-            key, value = [x.strip() for x in line.split(':', 1)]
-            if key == 'Finding':
-                if current_finding:
-                    findings.append(current_finding)
-                current_finding = {}
-            current_finding[key] = value
-            
-    if current_finding:
-        findings.append(current_finding)
-    
-    return findings
-
 def convert_json_to_excel(json_file_path):
     """
     Convert GitLeaks JSON report to Excel format with proper formatting.
@@ -54,21 +17,22 @@ def convert_json_to_excel(json_file_path):
         str: Path to the generated Excel file
     """
     try:
-        # Parse the gitleaks report format
-        data = parse_gitleaks_report(json_file_path)
+        # Read the JSON file
+        with open(json_file_path, 'r') as f:
+            data = json.load(f)
         
         # Extract relevant fields
         processed_data = []
         for finding in data:
             processed_data.append({
-                'File': finding.get('File', ''),
-                'Line': finding.get('Line', ''),
-                'Commit': finding.get('Commit', ''),
-                'Secret': finding.get('Secret', ''),
-                'RuleID': finding.get('RuleID', ''),
-                'Date': finding.get('Date', ''),
-                'Author': finding.get('Author', ''),
-                'Email': finding.get('Email', '')
+                'File': finding.get('file', ''),
+                'Line': finding.get('startLine', ''),
+                'Commit': finding.get('commit', ''),
+                'Secret': finding.get('secret', ''),
+                'RuleID': finding.get('ruleID', ''),
+                'Date': finding.get('date', ''),
+                'Author': finding.get('author', ''),
+                'Email': finding.get('email', '')
             })
         
         df = pd.DataFrame(processed_data)

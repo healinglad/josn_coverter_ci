@@ -35,12 +35,12 @@ jobs:
         id: gitleaks
         run: |
           cd target_repo
-          if gitleaks detect -f json -r ../gitleaks-report.json; then
-            echo "FINDINGS=false" >> $GITHUB_ENV
-            echo "No secrets found in the repository."
-          else
+          if ! gitleaks detect -f json -r ../gitleaks-report.json; then
             echo "FINDINGS=true" >> $GITHUB_ENV
             echo "Found potential secrets in the repository."
+          else
+            echo "FINDINGS=false" >> $GITHUB_ENV
+            echo "No secrets found in the repository."
           fi
 
       - name: Set up Python
